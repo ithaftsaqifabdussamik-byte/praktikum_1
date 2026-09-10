@@ -4,14 +4,14 @@
         <title>tugas table biodata</title>
     </head>
     <body>
-        <table align=center border=1 height=40% width=30.5% >
+        <table align=center border=1 height=50% width=45.5% >
             <tr>
                 <td colspan="3" align="center"><font face="courier"><b>BIODATA</b></font></td>
             </tr>
             <tr>
                 <td>Nama: </td>
                 <td>{{ $nama }}</td>
-                <td rowspan="7"><img src="images/ithaf.jpeg" align="center" width="150" height="200"></td>
+                <td rowspan="7"><img src="{{ asset($foto) }}" align="center" width="180" height="270"></td>
             </tr>
             <tr>
                 <td>Tempat Tanggal Lahir: </td>
@@ -35,9 +35,18 @@
             </tr>
             <tr>
                 <td>No. Telp: </td>
-                <td{{ $hp }}</td>
+                <td>{{ $hp }}</td>
             </tr>
         </table>
+
+        <form action="{{ url('/ortu/biodata') }}" method="get">
+        <input type="submit" value="Orang Tua">
+        </form>
+
+        <form action="{{ url('/sekolah/Alumni_sekolah') }}" method="get">
+        <input type="submit" value="Sekolah">
+        </form>
+
     </body>
 </html>
 </div>
