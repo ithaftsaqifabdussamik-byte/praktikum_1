@@ -1,4 +1,7 @@
 <br>
+<head>
+    <title>table alumni</title>
+</head>
 <table align="center" border="1" width="60%">
 
         <tr>

@@ -1,4 +1,5 @@
-<html>
+<div>
+    <html>
     <head>
         <title>tugas table biodata</title>
     </head>
@@ -36,9 +37,6 @@
 <div>
     <div> <br><br>
      <html>
-    <head>
-        <title>tugas table biodata</title>
-    </head>
     <body>
         <table align=center border=1 height=20% width=28.5% >
             <tr>
@@ -67,3 +65,4 @@
         </table>
     </body>
 </html>
+</div>

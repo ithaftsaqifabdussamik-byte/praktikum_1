@@ -16,12 +16,10 @@ Route::get('/apaya/biodata', function () {
     // return view('biodata.data');
     return view('biodata.data', ['nyamah' => $nama]);     
 });
-Route::get('/alumni/biodata', function () {
-    $nama = "Jane Doe";
-    // return view('biodata.data');
-    return view('Alumni_sekolah', ['nyamah' => $nama]);     
+Route::get('/alumni', function () {
+    return view('Alumni_sekolah');     
 });
-Route::get('/coba/biodata', function () {
+Route::get('/ithaf/biodata', function () {
     $judul = "BIODATA";
     $nama = "Ithaf Tsaqif";
     $foto = 'images/ithaf.jpeg';
@@ -65,7 +63,7 @@ Route::get('/ortu/biodata', function () {
     'hp_ayah' => $hp_ayah,
     'hp_ibu' => $hp_ibu]);
 });
-Route::get('/sekolah/Alumni_sekolah', function () {
+Route::get('/sekolah/alumni', function () {
     $jenjang = "SMA";
     $nama_sekolah_sma = "SMA 3 Pamekasan";
     $jurusan = "Kurikulum Merdeka";

@@ -1,7 +1,6 @@
-<div>
-     <html>
+<div><html>
     <head>
-        <title>tugas table biodata</title>
+        <title>table biodata</title>
     </head>
     <body>
         <table align=center border=1 height=50% width=45.5% >
@@ -43,7 +42,7 @@
         <input type="submit" value="Orang Tua">
         </form>
 
-        <form action="{{ url('/sekolah/Alumni_sekolah') }}" method="get">
+        <form action="{{ url('/sekolah/alumni') }}" method="get">
         <input type="submit" value="Sekolah">
         </form>
 

@@ -1,7 +1,8 @@
-<html>
-    <head>
-        <title>tugas table biodata ortu</title>
-    </head><br><br>
+<div>
+    <html>
+        <head>
+            <title>tabel ortu</title>
+        </head>
     <body>
         <table align=center border=1 height=30% width=30% >
             <tr>
@@ -28,19 +29,12 @@
                 <td>{{$hp_ayah}}</td>
             </tr>
         </table>
-    </body>
-</html> <br><br>
-
-<html>
-    <head>
-        <title>tugas table biodata</title>
-    </head>
-    <body>
+        <br>
         <table align=center border=1 height=30% width=30% >
             <tr>
                 <td colspan="3" align="center"><font face="courier"><b>BIODATA IBU</b></font></td>
             </tr>
-            <tr align="center">
+            <tr>
                 <td>Nama: </td>
                 <td>{{ $nama_ibu }}</td>
             </tr>
@@ -61,6 +55,6 @@
                 <td>{{ $hp_ibu }}</td>
             </tr>
         </table>
-
     </body>
-</html>
+    </html>
+</div>
