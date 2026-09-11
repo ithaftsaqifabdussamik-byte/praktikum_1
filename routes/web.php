@@ -16,6 +16,11 @@ Route::get('/apaya/biodata', function () {
     // return view('biodata.data');
     return view('biodata.data', ['nyamah' => $nama]);     
 });
+Route::get('/alumni/biodata', function () {
+    $nama = "Jane Doe";
+    // return view('biodata.data');
+    return view('Alumni_sekolah', ['nyamah' => $nama]);     
+});
 Route::get('/coba/biodata', function () {
     $judul = "BIODATA";
     $nama = "Ithaf Tsaqif";
@@ -81,6 +86,5 @@ Route::get('/sekolah/Alumni_sekolah', function () {
     'jnjng2' => $jenjang2,
     'jng_pt' => $nama_perguruan_tinggi,
     'masuk_pt' => $tahun_masuk_pt,
-    'jrsnpt' => $jurusan_pt
-    ] );
+    'jrsnpt' => $jurusan_pt]);
 });

@@ -1,10 +1,9 @@
-<br>
 <table align="center" border="1" width="60%">
 
         <tr>
             <td colspan="6" align="center">
                 <font face="courier">
-                    <b>Alumni Sekolah/PTN</b>
+                    <b>ALUMNI SEKOLAH/PTN</b>
                 </font>
             </td>
         </tr>
@@ -20,19 +19,19 @@
 
         <tr align="center">
             <td>1</td>
-            <td>{{ $jnjng }}</td>
-            <td>{{ $jng_sekolah }}</td>
-            <td>{{ $jrsnsma }}</td>
-            <td>{{ $masuk_sma }}</td>
-            <td>{{ $lulus_sma }}</td>
+            <td>SMA</td>
+            <td>SMAN 3 PAMEKASAN</td>
+            <td>Kurikulum Merdeka</td>
+            <td>2022</td>
+            <td>2025</td>
         </tr>
 
         <tr align="center">
             <td>2</td>
-            <td>{{ $jnjng2 }}</td>
-            <td>{{ $jng_pt }}</td>
-            <td>{{ $jrsnpt }}</td>
-            <td>{{ $masuk_pt }}</td>
+            <td>Perguruan Tinggi</td>
+            <td>Politeknik Negeri Malang</td>
+            <td>Manajemen Informatika</td>
+            <td>2025</td>
             <td>-</td>
         </tr>
     </table>
